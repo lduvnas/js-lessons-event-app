@@ -8,6 +8,11 @@ function App() {
   const passwordInput = useRef(null);
 
   function logIn() {
+    const email = emailInput.current.value;
+    const password = passwordInput.current.value;
+
+    console.log(email, password);
+
     fetch(LOGIN_URL);
   }
 
