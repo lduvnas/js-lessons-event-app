@@ -11,6 +11,7 @@ export default function EventListPage() {
 
   useEffect(() => {
     fetchEventList();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function fetchEventList() {
