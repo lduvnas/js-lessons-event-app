@@ -9,6 +9,7 @@ export default function LoginForm() {
 
   const [email, setEmail] = useState("test.user@willandskill.se");
   const [password, setPassword] = useState("js-lesson-10");
+  // eslint-disable-next-line no-unused-vars
   const [token, setToken] = useState(null);
 
   function logIn() {
